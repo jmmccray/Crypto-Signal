@@ -1,0 +1,17 @@
+
+
+1. Install Docker & Get Contain
+
+Unhandled exception...Exception of type 'Docker.ApiServices.WS2.WslKernel'
+- Needed to download WSL2 Linux kernel updated fo x64 machine
+
+Note, got the container up and running! 
+    - Setup mock config.yml
+    - Got the container output updates to CLI
+
+To Run Container: docker run --rm -v $PWD/config.yml:/app/config.yml shadowreaver/crypto-signal:master
+To Update Container: docker pull shadowreaver/crypto-signal:master
+To Step Into Container: docker exec -it <name-of-container>
+
+2. Learng Config Terminology & Setup Proper Config.yml
+    - https://github.com/jmmccray/Crypto-Signal/blob/master/docs/config.md
